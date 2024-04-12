@@ -6,7 +6,7 @@ The script performs the tasks required by the assignment.
 
 First, the xtest, xtrain, ytest, and ytrain tables were read in. Then, the feature names (features.txt), subject test ID (subject_test.txt), subject train ID (subject_train.txt), and activity name labels (activity_labels.txt) were read in.
 
-I renamed the y test column (only one) to ACTIVITY and renamed the subject test column (only one) to ID. I then column binded these two datasets together. I performed the same actions for yTrain and subjectTrain.
+I renamed the y test column (there is only one column) to ACTIVITY and renamed the subject test column (only one) to ID. I then column binded these two datasets together. I performed the same actions for yTrain and subjectTrain.
 
 I row binded xtest and xtrain to create xData, then replaced its undescriptive column names using the features table.
 
