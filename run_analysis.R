@@ -55,3 +55,5 @@ averages <- extractedData %>%
   group_by(ID, ACTIVITY) %>%
   summarise(across(where(is.numeric), mean, na.rm = TRUE))
 
+#Final output for this assignment submission being only the first dataset made so...
+extractedData
